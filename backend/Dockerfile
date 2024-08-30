@@ -1,5 +1,5 @@
 # backend/Dockerfile
-FROM continuumio/miniconda3:latest
+FROM python:3.9-slim
 
 LABEL authors="willchien"
 
@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Set the environment variables
 ENV PYTHONPATH /app
-ENV OPENAI_API_KEY <your_key>
+ENV OPENAI_API_KEY your_key
 
 # Expose the port FastAPI runs on
 EXPOSE 8000

@@ -3,12 +3,9 @@ from pathlib import Path
 KEY_METRICS = [
     "Gross Profit Margin",
     "Working Capital",
-    "Current Ratio",
     "Quick Ratio",
     "Debt to Equity Ratio",
-    "Inventory Turnover",
     "Total Asset Turnover",
-    "Return on Equity",
     "Return on Assets",
     "Operating Cash Flow",
 ]

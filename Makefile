@@ -9,7 +9,7 @@ FRONTEND_CONTAINER_NAME=fin-reader-frontend-container
 FRONTEND_PORT=3000
 
 PYTHONPATH=$(pwd)
-OPENAI_API_KEY="<key>"  # Replace <your_key> with your actual OpenAI API key
+OPENAI_API_KEY="<your_key>"  # Replace <your_key> with your actual OpenAI API key
 
 # Targets
 .PHONY: all build-backend build-frontend build run-backend run-frontend run stop-backend stop-frontend stop up start-backend start-frontend start
